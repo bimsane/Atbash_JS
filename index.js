@@ -8,6 +8,9 @@ function Decypher(data) {
     if(isCharacterALetter(element)){
       output += alphabet[25 - index];
     }
+    else{
+      output += element;
+    }
   }
   console.log(output);
 }
