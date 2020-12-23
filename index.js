@@ -13,4 +13,4 @@ function isCharacterALetter(char) {
   return (/[a-zA-Z]/).test(char)
 }
 
-console.log(Decypher('Welcome to the jungle'));
+Decypher('Dvoxlnv gl gsv qfmtov');
