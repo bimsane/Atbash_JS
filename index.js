@@ -1,6 +1,6 @@
 const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 
-function Convert(data) {
+function convert(data) {
   let output = "";
   for (let i = 0; i < data.length; i++) {
     const element = String(data[i]).toLowerCase();
@@ -17,5 +17,5 @@ function isCharacterALetter(char) {
   return /[a-zA-Z]/.test(char);
 }
 
-Convert("svool dliow!");
-Convert("Have A Nice Day!");
+convert("svool dliow!");
+convert("Have A Nice Day!");
